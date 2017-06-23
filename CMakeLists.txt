@@ -1,6 +1,9 @@
 cmake_minimum_required(VERSION 2.6)
 
-PROJECT (OFFER)
+PROJECT (HUAWEI)
+
+find_package(Boost REQUIRED)
+include_directories(${Boost_INCLUDE_DIRS})
 
 set(CMAKE_CXX_FLAGS "-O0 -ggdb -std=c++11")
 set(CMAKE_CXX_COMPILER "g++")
@@ -18,5 +21,11 @@ add_executable(2 ${SRC_DIR}/2.cpp)
 SET(SRC_DIR ../src)
 add_executable(3 ${SRC_DIR}/3.cpp)
 
+SET(SRC_DIR ../src)
+add_executable(4 ${SRC_DIR}/4.cpp)
+
+SET(SRC_DIR ../src)
+add_executable(5 ${SRC_DIR}/5.cpp)
+target_link_libraries(5 boost_regex)
 
 
