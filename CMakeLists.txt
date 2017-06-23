@@ -28,4 +28,21 @@ SET(SRC_DIR ../src)
 add_executable(5 ${SRC_DIR}/5.cpp)
 target_link_libraries(5 boost_regex)
 
+SET(SRC_DIR ../src)
+add_executable(6 ${SRC_DIR}/6.cpp)
+
+SET(SRC_DIR ../src)
+add_executable(7 ${SRC_DIR}/7.cpp)
+
+SET(SRC_DIR ../src)
+add_executable(8 ${SRC_DIR}/8.cpp)
+
+SET(SRC_DIR ../src)
+add_executable(9 ${SRC_DIR}/9.cpp)
+
+SET(SRC_DIR ../src)
+add_executable(10 ${SRC_DIR}/10.cpp)
+
+
+
 
