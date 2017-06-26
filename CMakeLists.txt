@@ -67,6 +67,10 @@ add_executable(17 ${SRC_DIR}/17.cpp)
 SET(SRC_DIR ../src)
 add_executable(18 ${SRC_DIR}/18.cpp)
 
+SET(SRC_DIR ../src)
+add_executable(19 ${SRC_DIR}/19.cpp)
+
+
 
 
 
