@@ -9,8 +9,6 @@ int main(int argc, char ** argv)
     cin>>str1>>str2;
 
     
-        
-
     for(int i=0;i<str1.size();i+=8)
     {
 	string output("00000000");
@@ -25,10 +23,6 @@ int main(int argc, char ** argv)
 	std::copy(str2.begin()+i,str2.begin()+i+l,output.begin());
 	cout<<output<<endl;
     }
-
-
-    
-    
 
     return 0;
 }

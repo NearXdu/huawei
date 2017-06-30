@@ -73,8 +73,36 @@ add_executable(19 ${SRC_DIR}/19.cpp)
 SET(SRC_DIR ../src)
 add_executable(20 ${SRC_DIR}/20.cpp)
 
+SET(SRC_DIR ../src)
+add_executable(21 ${SRC_DIR}/21.cpp)
+
+SET(SRC_DIR ../src)
+add_executable(22 ${SRC_DIR}/22.cpp)
+
+SET(SRC_DIR ../src)
+add_executable(23 ${SRC_DIR}/23.cpp)
 
 
+SET(SRC_DIR ../src)
+add_executable(24 ${SRC_DIR}/24.cpp)
+
+SET(SRC_DIR ../src)
+add_executable(25 ${SRC_DIR}/25.cpp)
+
+SET(SRC_DIR ../src)
+add_executable(26 ${SRC_DIR}/26.cpp)
+
+SET(SRC_DIR ../src)
+add_executable(27 ${SRC_DIR}/27.cpp)
+
+SET(SRC_DIR ../src)
+add_executable(28 ${SRC_DIR}/28.cpp)
+
+SET(SRC_DIR ../src)
+add_executable(29 ${SRC_DIR}/29.cpp)
+
+SET(SRC_DIR ../src)
+add_executable(30 ${SRC_DIR}/30.cpp)
 
 
 
